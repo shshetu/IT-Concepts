@@ -1,0 +1,43 @@
+Microsoft Excel
+Getting started with Excel 2016
+page: 8-27
+1. An Excel worksheet is made up of individual cells, each of which has a unique
+--------------.
+b. reference.
+
+2. By default text is aligned within a cell to the -----, while numbers are aligned within the cell to the ------.
+ c. left, right
+
+3. Where Autosum button is located?
+ d. displayed towards the right end of the ribbon
+
+4. From where we can format the date on a cell?
+ b. Format cells
+
+5. By default, each new workbook contains how many worksheet?
+a. a single worksheet
+
+6. Keyboard shortcut to open an existing file is?
+b. Ctrl+O
+
+7. Keyboard shortcut to switch between open programs is?
+c. Alt+Tab
+
+8.  If you want to email a copy of an Excel 2016 workbook to someone that has an earlier version of Excel, such as Excel 2003 what you have to do?
+d. you may need to save the file in the Excel 97-2003 Workbook file format
+
+9. Can we save the excel new file in PDF format using "Save as"?
+a. Yes.
+
+10. you can create new workbooks in the future based on the ----- you create.
+b. templates.
+
+11. If we save new file in excel in text file format what change will occur?
+	a. It will also remove any pictures or other features such as tables.
+	b. Only plain text will be saved.
+
+12. ------- saves table data in a form that can be used by other programs?
+	d. CSV file.
+
+13. What is the abbreviation of CSV?
+	c. Comma Separated Value

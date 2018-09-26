@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+
+<head>
+
+<title>	This is my page		</title>
+
+</head>
+
+<body>
+
+<div style= "width:80%; height:500px; background:green; margin:0; auto">			
+
+
+
+
+</div>
+
+</body>
+
+
+</html>
