@@ -1,0 +1,78 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 29, 2018, 4:05:29 PM
+    Author     : User
+*/
+
+#maindiv{
+    width:1366px;
+    height:970px;
+}
+.r1{
+    width:1366px;
+        height:200px;
+}
+.r2{
+    width:1366px;
+        height:50px;
+}
+.r3{
+    width:1366px;
+        height:400px;
+}
+.r4{
+    width:1366px;
+        height:300px;
+}
+.r5{
+    width:1366px;
+        height:20px;
+}
+.c11{
+    width:200px;
+        height:200px;
+        float:left;
+}
+.c12{
+     width:1166px;
+        height:200px;
+         float:left;
+}
+.c41{
+     width:455.33px;
+        height:300px;
+        float:left;
+}
+.c42{
+     width:455.33px;
+        height:300px;
+        float:left;
+}
+.c43{
+    width:455.33px;
+        height:300px;
+        float:left;
+}
+.aqua{background:aqua}
+.brown{background:brown}
+.cadetblue{background:cadetblue}
+.cyan{background:cyan}
+.darkkhaki{background:darkkhaki}
+.darkorchid{background:darkorchid}
+.darkred{background:darkred}
+.green{background:green}
+.powderblue{background:powderblue}
+.red{background:red}
+.blue{background:blue}
+.yellow{background:yellow}
+p{
+display: block;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
