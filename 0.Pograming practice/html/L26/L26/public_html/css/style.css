@@ -1,0 +1,61 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 1, 2018, 3:06:59 PM
+    Author     : User
+*/
+
+#maindiv{
+            width:100%;
+            height:auto;
+            margin:0 auto;
+}
+.row{
+    width:100%;
+    height:auto;
+}
+.leftcol{
+    width:30%;
+    height:auto;
+}
+.rightcol{
+    width:70%;
+    height:auto;
+}
+.r1
+{
+    width:100%;
+    height:200px;
+}
+.r2
+{
+    width:100%;
+    height:50px;
+}
+.r3
+{
+    width:100%;
+    height:400px;
+}
+.r4
+{
+    width:100%;
+    height:100px;
+}
+.c11
+{
+    width:30%;
+    height:200px;
+    float:left;
+}
+.c12
+{
+    width:70%;
+    height:200px;
+    float:left;
+}
+.aqua{background:aqua} .red{background:red} .green{background:green}
+.blue{background:blue} .orange{background:orange} .cyan{background:cyan}
