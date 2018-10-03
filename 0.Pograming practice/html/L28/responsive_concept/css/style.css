@@ -1,0 +1,77 @@
+#maindiv{
+
+    width:100%;
+    height:auto;
+
+}
+.row{
+  width:100%;
+  height:auto;
+  min-height:50px;
+
+}
+@media screen and (min-width:769px){
+.col-lg{
+
+  width:25%;
+  height:auto;
+  float:left;
+  text-align: center;
+  font-size:30px;
+}}
+
+
+@media screen and (max-width:769px){
+.col-md{
+
+  width:50%;
+  height:auto;
+  float:left;
+text-align: center;
+    font-size:25px;
+
+}}
+
+@media screen and (max-width:468px){
+.col-sd{
+
+  width:100%;
+  height:auto;
+  float:left;
+text-align: center;
+    font-size:20px;
+}
+}
+
+.blue{background-color:blue}
+.green{background-color:green}
+.red{background-color:red}
+.yellow{background-color:yellow}
+td{
+  width: 100px;
+  height:100px;
+  background-color:blue;
+}
+<!--
+tr{
+  width: 100%;
+  height:auto;
+
+}
+-->
+th{
+  width: 50%;
+  height:auto;
+  background-color: red;
+}
+.leftcol{
+    width: 30%;
+    height:auto;
+    background-color: red;
+}
+.rightcol{
+    width: 70%;
+    height:auto;
+    background-color: green;
+
+}
