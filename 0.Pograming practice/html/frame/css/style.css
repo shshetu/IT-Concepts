@@ -1,0 +1,43 @@
+#maindiv{
+
+  width: 100%;
+  height: auto;
+}
+.row{
+  width: 100%;
+  height: auto;
+
+}
+.lcol{
+  width: 30%;
+  min-height: 150px;
+  height: auto;
+  float:left;
+  background-color: red;
+
+
+}
+.rcol{
+  width: 70%;
+  min-height: 150px;
+  height: auto;
+  float:left;
+background-color: green;
+}
+.red{background-color: red}
+.green{background-color:green}
+.blue{background-color: blue}
+.yellow{background-color:yellow}
+.cyan{background-color: cyan}
+.gray{background-color: gray}
+td,th,tr{
+  width: auto;
+  height: auto;
+  min-width: 50px;
+  min-height: 50px;
+  /* background-color: green; */
+}
+table#color td:nth-child(odd)
+{background: cyan}
+table#color td:nth-child(even)
+{background: yellow}
