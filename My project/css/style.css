@@ -30,3 +30,7 @@
 .a4{background: #000000}
 .a5{background: #000000}
 .a6{background: #000000}
+.customdiv{
+  width:150px;
+  border-right:5px; 
+}

@@ -1,0 +1,12 @@
+/****************************************************
+ *
+ * @File: 		style.css
+ * @Package:	WebSimple - GetSimple
+ * @Author:   WebPrezent / TeeJay
+ * @Date:     10 / 08 / 2013
+ * @Action:		Import stylu do sablony
+ *
+ *****************************************************/
+
+@import 'css/reset.css';
+@import 'css/styles.css';

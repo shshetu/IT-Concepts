@@ -1,0 +1,39 @@
+/* Margin of elements on the base level */
+#hd_cm, .tabla { margin: 10px 30px; }
+/* Margin of replies */
+.tablardisplay { margin: 10px 30px 10px 60px; }
+
+/* ------ DESIGN ------ */
+
+/* Comments heading, Write a comment heading */
+#hd_cm, 
+.mh3   { margin: 0px 30px; font-size: 22px; color: #c6ff00; font-family: 'Cantora One', sans-serif; }
+.mh3   { line-height: 40px; position: relative; top: 15px; }
+/* A comment and a reply to a comment*/
+.tabla, .comrepl { border: 2px solid #222; background: url("./images/hexagon-grey.png"); border-radius: 0px 30px 0px 30px; box-shadow: 3px 3px 4px rgba(0,0,0,0.5); overflow: hidden; font-family: 'Cantora One', sans-serif; }
+.comrepl { border-radius: 0px 0px 30px 30px; margin: 0px 0px 10px; }
+
+/* Name div */
+.subjblg     { background: rgba(0,0,0,0.2); height: 25px; line-height: 25px; font-size: 16px; color: #c8f500; }
+/* Image next to the name */
+.subjblg img:first-of-type { float: left; margin: 5px 5px 0px 5px; }
+/* Image for collapsing a comment */
+img#imgcontentmain1 { float: left; }
+/* Rating */
+img.rating { margin: 0px 5px; cursor: pointer; }
+span.rating { cursor: default; font-size: 15px; margin: 0px 10px 0px 5px; }
+.rating-wrapper { float: right; }
+
+/* 'Collapse comment' div */
+.blq { float: right; margin-right: 20px; }
+
+/* Comment text div */
+.comtblg p { padding: 10px; font-family: 'Open Sans', sans-serif; margin: 0px; }
+
+/* Date, replies and reply button wrapper */
+.lastline { background: rgba(0,0,0,0.2); height: 25px; font-size: 12px; }
+.lastline, .lastline a { color: #b8e100; }
+/* Date div */
+.buttoncom { float: left; margin: 5px 20px; color: #bbb; }
+/* Reply button div */
+div.replyblg { float: right; margin: 5px 20px; }

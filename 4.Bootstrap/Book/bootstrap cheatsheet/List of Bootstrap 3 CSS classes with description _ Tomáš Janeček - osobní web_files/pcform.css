@@ -1,0 +1,58 @@
+/* Form and its wrapper */
+.form   { margin: 10px 10px; }
+.formsp { border: 2px solid #666; margin: 10px 30px; position: relative; border-radius: 0px 30px 0px 30px; background: url("../images/hexagon-grey.png"); }
+
+/* Div wrapping bbcode icons */
+.form .bbcode { margin: 0px 0px 5px 0px; }
+
+/* BBCode icons */
+.form .bbcode img.bbc            { border-radius: 3px; margin: 0px 5px 0px 0px; cursor: pointer; vertical-align: middle; }
+/* BBCode separator */
+#content .form .bbcode img.bbc_d { border-right: 1px solid #eee; margin: 0px 10px 0px 5px; vertical-align: middle;  }
+/* BBCode select box */
+.form .bbcode select             { font-size: 12px; vertical-align: middle; border-radius: 4px;}
+/* BBCode button */
+.form .bbcode .button            { font-size: 12px; vertical-align: middle; }
+/* Smiles hidden div */
+.form #smailer1, .form #smailer2, .form #smailer3 { margin: 0px 0px 5px 0px; padding: 0px 10px 5px 10px; border: 2px dotted #91ab0c; border-radius: 4px; background: rgba(0,0,0,0.2); }
+
+
+/* Divs wrapping each input */
+.form .input       { height: 20px; float: right; margin: 5px 0px 16px; font-size: 13px; }
+/* Input field E-mail */
+.form .email       { width: 250px; height: 20px; }
+/* Input fields Name and Location */
+.form .input .text { width: 250px; height: 20px; }
+
+/* Div wrapping textarea 'input' */
+.form .textarea            { width: 320px; height: 104px; float: left; margin: 3px 0px 10px; }
+/* Textarea 'input' itself */
+.form .textarea textarea   { width: 100%; height: 100%; font-size: 13px; word-wrap: break-word; }
+
+/* Div wrapping captcha code, reload button and the reload button describtion */
+.form #captch         { margin: 25px 0px 5px; font-size: 12px; position: relative; }
+/* Captcha image */
+.form #captch .capt   { float: left; background: rgba(255,255,255,0.7); border-radius: 4px; }
+/* Captcha reload button */
+.form #captch input   { float: left; margin: 0px 0px 0px 5px; }
+/* Reload description */
+.form #captch .msgavs { float: left; font-size: 12px; position: absolute; top: 28px; left: 150px; }
+
+/* Div wrapping captcha input field and a hint to rewrite the captcha */
+.form .cap_input       { margin: 5px 0px; font-size: 12px; clear: both; position: relative; }
+/* Captcha input field itself */
+.form .cap_input input { width: 130px; text-align: center; margin: 5px 5px 0px 0px; }
+/* Captcha explanation text */
+.form .cap_input span  { position: absolute; left: 0px; top: -62px; }
+
+/* Div wrapping the submit button */
+.form .submit input       { position: absolute; right: 10px; bottom: 10px; cursor: pointer; color: #fff; border: none; border-radius: 4px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); 
+                            font-size: 20px; text-align: center; text-decoration: none; vertical-align: baseline; font-family: 'Cantora One', sans-serif; 
+                            width: 175px; height: 60px; background: url(http://tomasjanecek.cz/theme/TJv2/images/bg-button-short.png) no-repeat center -7px; }
+.form .submit input:hover { color: #000; text-shadow: 0px -1px 1px #fff; background-position: center -70px; }
+
+/* Common styles for all the fields (could be specified above to each of these) */
+.form .input .text,
+.form .email,
+.form .textarea textarea,
+.form .cap_input input   { padding: 5px; border: 1px solid rgba(0,0,0,0.6); background: #282828; color: #eee; box-shadow: inset 2px 2px 10px #444; border-radius: 4px; font-family: 'Open Sans', sans-serif; }
